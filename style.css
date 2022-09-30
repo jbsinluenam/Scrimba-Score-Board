@@ -44,7 +44,7 @@ h3 {
   margin-top: 26px;
 }
 
-button {
+.pointBtn {
   background: none;
   color: hsla(224, 44%, 73%, 1);
   border: 1px solid hsla(224, 44%, 73%, 1);
@@ -54,4 +54,23 @@ button {
   font-family: "Cursed Timer Ulil";
   font-weight: 400;
   font-size: 18px;
+}
+
+.reset {
+  width: 575px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: hsla(229, 47%, 20%, 1);
+  text-align: center;
+}
+
+.resetBtn {
+  font-family: "Cursed Timer Ulil";
+  font-weight: 400;
+  font-size: 22px;
+  color: hsla(229, 47%, 20%, 1);
+  border: 1px solid hsla(224, 44%, 73%, 1);
+  background: hsla(224, 44%, 73%, 1);
+  border-radius: 5px;
+  padding: 0.4em 2em;
 }
